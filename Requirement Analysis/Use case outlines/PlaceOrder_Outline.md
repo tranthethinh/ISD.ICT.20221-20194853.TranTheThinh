@@ -21,6 +21,6 @@
 * AIMS software validdates customer's input
 ### Alternative flow
 * Customer chooses to place rush order
-AIMS software checks if the items are available for rush order
-AIMS software combines the items that can be rushed 
-AIMS software schedules time for rush order
+    * AIMS software checks if the items are available for rush order
+    * AIMS software combines the items that can be rushed 
+    * AIMS software schedules time for rush order
