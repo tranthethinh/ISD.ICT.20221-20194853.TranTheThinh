@@ -18,4 +18,4 @@
 * AIMS software schedules time for rush order
 
 ### Alternative flow
-*  AIMS software would notify the customer and ask the customer to update delivery information if there is no support either from any media or the shipping address
+*  AIMS software would notify the customer and ask the customer to update delivery information if there is no support either from any media or the shipping address 
