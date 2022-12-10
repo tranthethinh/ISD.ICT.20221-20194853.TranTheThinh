@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane cacheHint="QUALITY" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="8.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../20221/ITSS%20SD/icon%20UI/1413908.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="308.0" layoutY="53.0" text="cart">
+               <font>
+                  <Font name="Bodoni MT Black" size="80.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </top>
+   <right>
+      <Pane cacheHint="QUALITY" prefHeight="567.0" prefWidth="433.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="48.0" layoutY="232.0" mnemonicParsing="false" text="PLACE ORDER" />
+            <Label layoutX="63.0" layoutY="85.0" text="Subtotal" />
+            <Label layoutX="63.0" layoutY="124.0" text="Amount" />
+            <Label layoutX="193.0" layoutY="85.0" text="1111đ" />
+            <Label layoutX="196.0" layoutY="124.0" text="2000đ" />
+         </children>
+      </Pane>
+   </right>
+   <center>
+      <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <content>
+            <Pane prefHeight="277.0" prefWidth="710.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../20221/ITSS%20SD/icon%20UI/2.jfif" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="239.0" layoutY="47.0" text="BOOK1" />
+                  <Button layoutX="239.0" layoutY="89.0" mnemonicParsing="false" text="Delete" />
+                  <TextField layoutX="460.0" layoutY="42.0" />
+                  <Label layoutX="389.0" layoutY="47.0" text="quantity" />
+                  <Label layoutX="661.0" layoutY="47.0" prefHeight="21.0" prefWidth="45.0" text="100đ" />
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

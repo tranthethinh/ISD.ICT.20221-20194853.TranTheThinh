@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="776.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="10.0" layoutY="170.0" prefHeight="535.0" prefWidth="374.0">
+         <children>
+            <Label text="NAME" textFill="#30cf4d" />
+            <Label text="TRAN THE THINH" textFill="#1bf564" GridPane.columnIndex="1" />
+            <Label text="PHONE" textFill="#14eb1e" GridPane.rowIndex="1" />
+            <Label text="02222222222" textFill="#14eb1e" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="CITY" textFill="#14eb1e" GridPane.rowIndex="2" />
+            <Label text="HA NOI" textFill="#14eb1e" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label text="ADDRESS" textFill="#14eb1e" GridPane.rowIndex="3" />
+            <Label text="GAN NHA" textFill="#14eb1e" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label text="SHIPPINH INSTRUCTION" textFill="#14eb1e" GridPane.rowIndex="4" />
+            <Label text="SI" textFill="#14eb1e" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="374.0" minWidth="10.0" prefWidth="185.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="0.0" prefWidth="189.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane layoutX="403.0" layoutY="481.0" prefHeight="158.0" prefWidth="434.0">
+         <children>
+            <Label text="SUBTOTAL" textFill="#f7df0f" />
+            <Label text="SHIPPING FEES" textFill="#f7df0f" GridPane.rowIndex="1" />
+            <Label text="TOTAL" textFill="#f7df0f" GridPane.rowIndex="2" />
+            <Label text="1000" textFill="#f7df0f" GridPane.columnIndex="1" />
+            <Label text="1000000" textFill="#f7df0f" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="1001000" textFill="#f7df0f" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Button layoutX="460.0" layoutY="705.0" mnemonicParsing="false" text="CONFIRM" textFill="#11e811" />
+      <Label layoutX="180.0" layoutY="47.0" text="invoice">
+         <font>
+            <Font size="74.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#4710d0" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../20221/ITSS%20SD/icon%20UI/Screenshot%202022-11-10%20183828.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="608.0" layoutY="89.0" prefHeight="390.0" prefWidth="623.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="128.0" layoutY="5.0">
+               <image>
+                  <Image url="@../../../20221/ITSS%20SD/icon%20UI/2.jfif" />
+               </image>
+            </ImageView>
+            <Label layoutX="145.0" layoutY="25.0" prefHeight="58.0" prefWidth="128.0" text="BOOK">
+               <font>
+                  <Font size="47.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
