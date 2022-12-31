@@ -17,7 +17,7 @@ class ValidateNameTest {
 	    @CsvSource({
 	            "tranthethinh,true",
 	            "tranthinh1,false",
-	            "$#khang,false",
+	            "$#thinh,false",
 	            ",false"
 	    })
 	    public void test(String name, boolean expected) {

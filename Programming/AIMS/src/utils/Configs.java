@@ -53,12 +53,12 @@ public class Configs {
 
 	public static Font REGULAR_FONT = Font.font("Segoe UI", FontWeight.NORMAL, FontPosture.REGULAR, 24);
 
-	public static String[] PROVINCES = { "Bắc Giang", "Bắc Kạn", "Cao Bằng", "Hà Giang", "Lạng Sơn", "Phú Thọ",
-			"Quảng Ninh", "Thái Nguyên", "Tuyên Quang", "Yên Bái", "Điện Biên", "Hòa Bình", "Lai Châu", "Sơn La",
-			"Bắc Ninh", "Hà Nam", "Hải Dương", "Hưng Yên", "Nam Định", "Ninh Bình", "Thái Bình", "Vĩnh Phúc", "Hà Nội",
-			"Hải Phòng", "Hà Tĩnh", "Nghệ An", "Quảng Bình", "Quảng Trị", "Thanh Hóa", "Thừa Thiên-Huế", "Đắk Lắk",
-			"Đắk Nông", "Gia Lai", "Kon Tum", "Lâm Đồng", "Bình Định", "Bình Thuận", "Khánh Hòa", "Ninh Thuận",
-			"Phú Yên", "Quảng Nam", "Quảng Ngãi", "Đà Nẵng", "Bà Rịa-Vũng Tàu", "Bình Dương", "Bình Phước", "Đồng Nai",
-			"Tây Ninh", "Hồ Chí Minh", "An Giang", "Bạc Liêu", "Bến Tre", "Cà Mau", "Đồng Tháp", "Hậu Giang",
-			"Kiên Giang", "Long An", "Sóc Trăng", "Tiền Giang", "Trà Vinh", "Vĩnh Long", "Cần Thơ" };
+	public static String[] PROVINCES = { "Bac Giang", "Bac Kan", "Cao Bang", "Ha Giang", "Lang Son", "Phu Tho",
+			"Quang Ninh", "Thai Nguyen", "Tuyen Quang", "Yen Bai", "Dien Bien", "Hoa Binh", "Lai Chau", "Son La",
+			"Bac Ninh", "Ha Nam", "Hai Duong", "Hung Yen", "Nam Dinh", "Ninh Binh", "Thai Binh", "Vinh Phuc", "Hanoi",
+			"Hai Phong", "Ha Tinh", "Nghe An", "Quang Binh", "Quang Tri", "Thanh Hoa", "Thua Thien-Hue", "Dak Lak",
+			"Dak Nong", "Gia Lai", "Kon Tum", "Lam Dong", "Binh Dinh", "Binh Thuan", "Khanh Hoa", "Ninh Thuan",
+			"Phu Yen", "Quang Nam", "Quang Ngai", "Da Nang", "Ba Ria-Vung Tau", "Binh Duong", "Binh Phuoc", "Dong Nai",
+			"Tay Ninh", "Ho Chi Minh", "An Giang", "Bac Lieu", "Ben Tre", "Ca Mau", "Dong Thap", "Hau Giang",
+			"Kien Giang", "Long An", "Soc Trang", "Tien Giang", "Tra Vinh", "Vinh Long", "Can Tho" };
 }
